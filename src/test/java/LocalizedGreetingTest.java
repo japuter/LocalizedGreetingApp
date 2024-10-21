@@ -26,7 +26,7 @@ public class LocalizedGreetingTest {
         Locale locale = new Locale("fr", "FR");
         ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
         String greeting = messages.getString("greeting");
-        assertEquals("Bonjour! Bienvenue dans notre application.", greeting); // Ensure no extra space
+        assertEquals("Bonjour! Bienvenue dans notre application.", greeting);
     }
 
     @Test
